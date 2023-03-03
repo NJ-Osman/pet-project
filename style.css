@@ -1,0 +1,164 @@
+header {
+    /* Source: https://www.reddit.com/r/pokemon/comments/2ho8av/my_collection_of_pokemon_wallpapers_gathered_over/ */
+    background-image: url("./images/PokemonWallpaper.png");
+    background-size: cover;
+    height: 95vh;
+}
+
+button {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card-container {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#pokemon-name {
+    text-align: center;
+    border-bottom: 5px solid black;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#card {
+    border: 5px solid black;
+    margin: 7px 10px;
+}
+
+#card:hover {
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+#stats, #attacks {
+    display: flex;
+    justify-content: space-around;
+}
+
+#imgEl {
+    height: 430px;
+    width: 430px;
+    border-bottom: 5px solid black;
+}
+
+#stats-title {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#stats p {
+    margin: 0;
+}
+
+#stats {
+    border-bottom: 5px solid black;
+}
+
+.stat-item {
+    border: 1px solid;
+    padding: 10px 33px;
+}
+
+.stat-item p:nth-child(1) {
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.stat-item p:nth-child(2) {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#attacks-title{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px dashed black;
+    padding-bottom: 5px;
+}
+
+#attacks p {
+    text-transform: uppercase;
+}
+
+#pokedex-title {
+    position: absolute;
+    color: white;
+    top: 27px;
+    font-weight: 900;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#search-menu {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+#pokemonOptions {
+    border-radius: 5px 5px 5px 5px;
+    padding-right: 10px;
+
+}
+
+.search-pokemon {
+    border-radius: 5px 5px 5px 5px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+}
+
+#pokemon-types {
+    border-radius: 5px 5px 5px 5px;
+    padding-right: 10px;
+}
+
+.search-type {
+    border-radius: 5px 5px 5px 5px;
+    background-color: black;
+    color: white;
+}
+
+#home-menu {
+    margin: 5px 0;
+    text-align: center;
+    display: none;
+    width: 100%;
+}
+
+.home {
+    border-radius: 5px 5px 5px 5px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+  padding: 20px 0;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-size: 18px;
+}

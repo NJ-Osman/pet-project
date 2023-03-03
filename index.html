@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pokemon Card Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h2 id="pokedex-title">Pokedex</h2>
+        </header>
+        
+    <div id="search-menu">
+    <label for="pokemon-name">Choose a Pokemon: </label>
+
+    <select name="pokemonOptions" id="pokemonOptions"><option value="">Search by Pokemon</option></select>
+
+    <button class="search-pokemon">Search Pokemon</button>
+
+    <label for="pokemon-type">Choose a Type: </label>
+    <select name="pokemon-types" id="pokemon-types">
+        <option value="">Search by Type</option>
+        <option value="Fire">Fire</option>
+        <option value="Water">Water</option>
+        <option value="Grass">Grass</option>
+        <option value="Electric">Electric</option>
+        <option value="Psychic">Psychic</option>
+    </select>
+    <button class="search-type">Search Type</button>
+</div>
+<div id="home-menu">
+    <button class="home"><a href="index.html">Home</a></button>
+</div>
+        <section id="card-container">
+        </section>
+        <footer class="footer">
+            Made by Najib Osman
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
